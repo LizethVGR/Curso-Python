@@ -1,0 +1,9 @@
+##Línea para crear el entorno virtual sobre el cual se va a trabajar
+conda env create -f env_cursoBSG.yml
+
+##Línea para cambiar al nuevo entorno virtual que creamos
+conda activate curso_BSG
+
+##Línea para ejecutar los script que realizan el análisis de sentimientos
+python Analisis_sentimientos_Bert.py
+python Analisis_sentimientos_VADER.py
